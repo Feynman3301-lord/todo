@@ -1,0 +1,29 @@
+/* font aquired from google */
+.glegoo-regular {
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* document occupies the whole screen */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* hides the scroll on the right */
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+}
+ 
+/* hides the scroll on the right */
+.scroll-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
+
+/* to make the checkbox's check black */
+input.form-check-input:checked {
+    background-color: black; 
+    border-color: black; 
+}
